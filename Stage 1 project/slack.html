@@ -1,0 +1,39 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="/slack/slack.css">
+    </head>
+    <body>
+        <div class="Data">
+            <div class="profile-pic">
+                <img src="/20221006_135450.jpg" alt="IlaborEmmanuel" id="slackDisplayImage">
+            </div>
+
+            <div class="info">
+                <div class="name">
+            <label for="">Name:</label>
+        <input type="text" id="slackUserName" placeholder="IlaborEmmanuel" value="IlaborEmmanuel" disabled>
+        </div>
+
+        <div class="track">
+        <label for="">Track:</label>
+        <input type="text" placeholder="FrontEnd" value="FrontEnd" disabled id="myTrack">
+        </div>
+    <div class="url">
+        <label for="">GitHub URL</label>
+        <a href="#" id="githubURL"></a>
+        </div>
+
+    <div class="day-info">
+    <p id="currentUTCTime"></p>
+    <p id="date"></p>
+    <p id="currentDayOfTheWeek"></p>
+    </div>
+        </div>
+        </div>
+        <script src="/slack.js"></script>
+    </body>
+    </html>
