@@ -1,0 +1,99 @@
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        background-color: #A9E2F5;
+    }
+    .Data{
+    margin: auto;
+    width:48vw;
+    color: white;
+    border-radius: 10px;
+    padding: 60px 40px 60px 20px;
+    margin-top: 155px;
+    background-color:#407c87;
+    display: flex;
+    justify-content: center;
+    box-shadow:0 1px 10px 2px rgb(172, 172, 172);
+    
+
+
+    }
+    #slackDisplayImage{
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+    
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    #slackUserName, #myTrack{
+    width: 100%;
+    outline: none;
+    padding: 6px;
+    font-size: 15px;
+    color: rgb(3, 1, 1);
+    }
+    label{
+        font-weight: bold;
+    }
+    .name, .track, .url{
+        line-height: 30px;
+        
+
+    }
+    .track, .url{
+        padding-top: 20px;
+    }
+    .day-info{
+        display: flex;
+        
+        gap: 10px;
+    }
+    @media (max-width:706px){
+        .Data{
+            margin: auto;
+            width:52vw;
+        color: white;
+            border-radius: 10px;
+            padding: 60px 40px 60px 20px;
+            margin-top: 140px;
+        background-color:#407c87;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            
+        
+        
+        }
+
+        #slackDisplayImage{
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
+        
+            margin-left: 55px;
+        
+
+        
+        }
+
+
+
+
+    }
+    @media (max-width:425px){
+        .day-info{
+            display: flex;
+            flex-direction: column;
+        
+        }
+        
+    }
